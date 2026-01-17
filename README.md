@@ -1,7 +1,6 @@
-# Lehenge Wallah
+# Lehenge Wala
 
-### Sustainable Fashion Rental Platform
-Deployed at- imaginative-liger-60638e.netlify.app
+### Sustainable Fashion Rental Platform (made for Innovate 3.0 Hackathon)
 
 ## Description
 
@@ -23,13 +22,15 @@ Lehenge Wallah is a peer-to-peer clothing rental platform where users can list t
 | Layer                    | Tech                |
 | ------------------------ | ------------------- |
 | Frontend                 | HTML, CSS, JS       |
-| Database (Hackathon MVP) | JSON based storage  |
+| Backend                  | Python Flask        |
+| Database                 | MySQL               |
 
 ---
 
 ## Demo Video
 
-https://drive.google.com/file/d/1BT8gZTauYqIbjRjX1XPUcfRtLN2a5Nhu/view?usp=sharing
+https://drive.google.com/file/d/1DByaJXjPZ7zsSI1MjijVFq-5_rcY-ytr/view?usp=sharing
+
 ---
 
 ## Installation
@@ -55,7 +56,7 @@ Open browser → [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 | Step | Action                         |
 | ---- | ------------------------------ |
-| 1    | User signs up                  |
+| 1    | Rent Clothes/Sell Clothes      |
 | 2    | Upload outfit details + image  |
 | 3    | Other users browse and request |
 | 4    | Pickup & delivery arranged     |
@@ -68,17 +69,22 @@ Open browser → [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 | Step | File Name                         |
 | ---- | ------------------------------    |
-| 1    | index.html                        |
-| 2    | index.html                        |
-| 3    | style.css                         |
-| 4    | style2.css                        |
-| 5    | script.js                         |
-| 6    | script2.js                        |
+| 1    | templates/homepage.html           |
+| 2    | templates/women.html              |
+| 3    | templates/men.html                |
+| 4    | templates/kids.html               |
+| 5    | templates/buy.html                |
+| 6    | templates/buynow.html             |
+| 7    | templates/sell.html               |
+| 8    | app.py                            |
+| 9    | static/style.css                  |
+| 10   | static/script.js                  |
+
 
 ```
 ```
 ## Design
-
+<b>Residue textile waste contributes to 90% of the taol carbon footprint</b>
 * Circular sustainable economy concept
 * Community wardrobe sharing
 * Reduces textile waste
